@@ -7,7 +7,7 @@ jobs:
   preveri:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Preveri sintakso JavaScript
         run: node --check app.js
       - name: Preveri, da datoteke obstajajo
