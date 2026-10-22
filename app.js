@@ -3,7 +3,7 @@ const obrazec = document.getElementById("obrazec");
 const vnos = document.getElementById("vnos");
 const seznam = document.getElementById("seznam");
 const stevec = document.getElementById("stevec");
-
+// Komentar za
 // Naloge beremo iz localStorage (ostanejo tudi po osvežitvi strani)
 let naloge = JSON.parse(localStorage.getItem("naloge") || "[]");
 
