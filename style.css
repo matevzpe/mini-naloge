@@ -1,5 +1,5 @@
-body { font-family: sans-serif; background: #f2f4f8; margin: 0; }
-main { max-width: 420px; margin: 40px auto; background: #fff; padding: 20px; border-radius: 10px; }
+body { font-family: sans-serif; background: #62708b; margin: 0; }
+main { max-width: 425px; margin: 40px auto; background: #fff; padding: 20px; border-radius: 10px; }
 form { display: flex; gap: 8px; }
 input { flex: 1; padding: 8px; }
 ul { list-style: none; padding: 0; }
