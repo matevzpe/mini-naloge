@@ -1,0 +1,8 @@
+body { font-family: sans-serif; background: #f2f4f8; margin: 0; }
+main { max-width: 420px; margin: 40px auto; background: #fff; padding: 20px; border-radius: 10px; }
+form { display: flex; gap: 8px; }
+input { flex: 1; padding: 8px; }
+ul { list-style: none; padding: 0; }
+li { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eee; cursor: pointer; }
+li.opravljeno { text-decoration: line-through; color: #888; }
+li button { border: none; background: none; color: #c00; cursor: pointer; }

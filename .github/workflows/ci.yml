@@ -1,0 +1,14 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  preveri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preveri sintakso JavaScript
+        run: node --check app.js
+      - name: Preveri, da datoteke obstajajo
+        run: test -f index.html && test -f style.css
